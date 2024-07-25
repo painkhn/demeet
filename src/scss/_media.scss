@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px) {
+    .header,
+    .main,
+    .footer,
+    .backgrounds,
+    .download__main {
+        display: none;
+    }
+
+    body {
+        max-height: 100vh !important;
+    }
+
+    .mobile__error {
+        display: flex !important;
+    }
+}

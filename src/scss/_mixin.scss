@@ -1,0 +1,41 @@
+@mixin button-black {
+    background: var(--color-black) !important;
+    padding: 12px 20px !important;
+    border-radius: 12px !important;
+    color: #fff !important;
+    font-size: 18px !important;
+
+    &:hover {
+        background: #fff !important;
+        color: var(--color-black) !important;
+    }
+}
+
+@mixin button-white {
+    background: #fff !important;
+    padding: 12px 20px !important;
+    border-radius: 12px !important;
+    color: var(--color-black) !important;
+    font-size: 18px !important;
+
+    &:hover {
+        background: var(--color-black) !important;
+        color: #fff !important;
+    }
+}
+
+@mixin pretitle {
+    color: #25a898;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    font-family: IBM Plex Mono, monospace;
+    margin-bottom: 20px;
+}
+
+@mixin title {
+    color: var(--color-black);
+    max-width: 600px;
+    font-size: 47px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
